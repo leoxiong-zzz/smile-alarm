@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Workspace/OpenCV-2.4.9-android-sdk/sdk/java/OpenCV Library - 2.4.9.iml" filepath="$PROJECT_DIR$/../../Workspace/OpenCV-2.4.9-android-sdk/sdk/java/OpenCV Library - 2.4.9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Smile.iml" filepath="$PROJECT_DIR$/Smile.iml" />
+    </modules>
+  </component>
+</project>
+

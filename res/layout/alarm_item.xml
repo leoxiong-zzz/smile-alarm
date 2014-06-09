@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+                      android:id="@+id/linearLayout_time">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="00"
+                      android:id="@+id/textView_hour" android:textSize="50sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text=":"
+                      android:textSize="50sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="00"
+                      android:id="@+id/textView_minute" android:textSize="50sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="am"
+                      android:id="@+id/textView_meridiem" android:textSize="20sp"/>
+        </LinearLayout>
+        <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch_enabled" android:layout_gravity="right"
+                android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imageView_remove">
+            <ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:id="@+id/toggleButton_sunday" android:layout_centerVertical="true"
+                          android:layout_toRightOf="@+id/imageView_expand" android:singleLine="false"
+                          android:textOn="@string/abbr_sunday" android:textOff="@string/abbr_sunday"/>
+            <ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:id="@+id/toggleButton_monday" android:layout_centerVertical="true"
+                          android:layout_toRightOf="@+id/imageView_expand" android:singleLine="false"
+                          android:textOff="@string/abbr_monday" android:textOn="@string/abbr_monday"/>
+            <ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:id="@+id/toggleButton_tuesday" android:layout_centerVertical="true"
+                          android:layout_toRightOf="@+id/imageView_expand" android:singleLine="false"
+                          android:textOff="@string/abbr_tuesday" android:textOn="@string/abbr_tuesday"/>
+            <ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:id="@+id/toggleButton_wednesday" android:layout_centerVertical="true"
+                          android:layout_toRightOf="@+id/imageView_expand" android:singleLine="false"
+                          android:textOff="@string/abbr_wednesday" android:textOn="@string/abbr_wednesday"/>
+            <ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:id="@+id/toggleButton_thursday" android:layout_centerVertical="true"
+                          android:layout_toRightOf="@+id/imageView_expand" android:singleLine="false"
+                          android:textOff="@string/abbr_thursday" android:textOn="@string/abbr_thursday"/>
+            <ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:id="@+id/toggleButton_friday" android:layout_centerVertical="true"
+                          android:layout_toRightOf="@+id/imageView_expand" android:singleLine="false"
+                          android:textOff="@string/abbr_friday" android:textOn="@string/abbr_friday"/>
+            <ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:id="@+id/toggleButton_saturday" android:layout_centerVertical="true"
+                          android:layout_toRightOf="@+id/imageView_expand" android:singleLine="false"
+                          android:textOff="@string/abbr_saturday" android:textOn="@string/abbr_saturday"/>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/imageView_remove"
+                   android:src="@drawable/ic_action_remove" android:layout_alignParentTop="true"
+                   android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</LinearLayout>

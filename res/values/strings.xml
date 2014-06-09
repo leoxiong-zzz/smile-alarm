@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smile</string>
+    <string name="add_alarm">Add alarm</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="alarm">Alarm</string>
+    <string name="smile">Smile</string>
+    <string name="test_alarm">Test alarm</string>
+    <string name="delete">Delete</string>
+    <string name="abbr_sunday">Sun</string>
+    <string name="abbr_monday">Mon</string>
+    <string name="abbr_tuesday">Tue</string>
+    <string name="abbr_wednesday">Wed</string>
+    <string name="abbr_thursday">Thur</string>
+    <string name="abbr_friday">Fri</string>
+    <string name="abbr_saturday">Sat</string>
+    <string name="ante_meridiem">am</string>
+    <string name="post_meridiem">pm</string>
+</resources>
